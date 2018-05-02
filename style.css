@@ -59,6 +59,7 @@ a:hover {
   border-radius: 25%;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   background-image: url('images/Snap2.png');
   opacity: 0;
   position: absolute;
@@ -67,7 +68,6 @@ a:hover {
   left: 0;
   right: 0;
   transition: opacity 0.3s ease;
-  border: 3px solic blue;
 }
 
 #social-links-left > li {
