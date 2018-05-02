@@ -58,7 +58,6 @@ a:hover {
   width: 175px;
   border-radius: 25%;
   background-size: contain;
-  background-repeat: no-repeat;
   background-position: center;
   background-image: url('images/Snap2.png');
   opacity: 0;
