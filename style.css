@@ -40,10 +40,10 @@ a:hover {
 }
 
 .permanent-pic {
-  height: 175px;
-  width: 175px;
+  height: 172px;
+  width: 172px;
   border-radius: 20%;
-  background-size: 175px 175px;
+  background-size: contain;
   background-image: url('https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/eppqbhlusqwkwa3ycijp.jpg');
   margin: auto;
   position: relative;
@@ -54,8 +54,8 @@ a:hover {
 }
 
 .hover-pic {
-  height: 175px;
-  width: 175px;
+  height: 172px;
+  width: 172px;
   border-radius: 20%;
   background-size: contain;
   background-position: center;
