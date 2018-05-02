@@ -57,7 +57,7 @@ a:hover {
   height: 175px;
   width: 175px;
   border-radius: 25%;
-  background-size: 180px 180px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-image: url('images/Snap2.png');
   opacity: 0;
