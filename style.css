@@ -39,21 +39,10 @@ a:hover {
   color: #721D4F;
 }
 
-.profile-pic img {
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    transition: 0.5s;
-    display: block;
-    border-radius: 50%;
-    height: 175px;
-}
-
-
-
 .permanent-pic {
   height: 175px;
   width: 175px;
-  border-radius: 50%;
+  border-radius: 13%;
   background-image: url('https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/eppqbhlusqwkwa3ycijp.jpg');
   margin: auto;
   position: relative;
@@ -66,7 +55,7 @@ a:hover {
 .hover-pic {
   height: 175px;
   width: 175px;
-  border-radius: 50%;
+  border-radius: 13%;
   background-image: url('images/Snapchat-168598953.png');
   opacity: 0;
   position: absolute;
@@ -75,21 +64,6 @@ a:hover {
   left: 0;
   right: 0;
   transition: opacity 0.3s ease;
-}
-
-.profile-pic {
-  margin: 20px auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.profile-pic .fade img:hover {
-    opacity: 0;
-    position: absolute;
-}
-
-.profile-pic .fade img {
-    position: absolute;
 }
 
 #social-links-left > li {
