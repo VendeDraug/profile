@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Basic info</title>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -9,19 +10,19 @@
   <body>
     <div class="icon-bar">
       <a class="active" href="#"><i class="fas fa-user-circle"></i></a>
-      <a href="#social-links-left"><i class="fas fa-comment"></i></a>
-      <a href="#link-playlist"><i class="fas fa-headphones"></i></a>
+      <a href="#social"><i class="fas fa-comment"></i></a>
+      <a href="#playlist"><i class="fas fa-headphones"></i></a>
     </div>
     <div class="container">
       <div class="card text-center">
-        <div class="profile-pic-overlay">
-          <img src="https://res.cloudinary.com/wagon/image/upload/c_fill,g_face,h_200,w_200/eppqbhlusqwkwa3ycijp.jpg" alt="Morgan profile" id="profile-pic">
+        <div class="permanent-pic">
+          <div class="hover-pic"></div>
         </div>
         <h1>Morgan Krischer</h1>
         <h2>Programmer</h2>
         <p>Part of the Batch #143 at <strong>Le Wagon</strong>, London!</p>
       </div>
-      <div class="card text-center">
+      <div id="social" class="card text-center">
         <ul id="social-links-left">
           <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
           <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
@@ -29,7 +30,7 @@
         </ul>
       </div>
       <div class="card text-center">
-        <h2 id="link-playlist">My current playlist</h2>
+        <h2 id="playlist">My current playlist</h2>
         <table>
           <tbody>
             <tr>
