@@ -144,7 +144,7 @@ ul {
     width: 70px;
     background-color: #E2E2E2;
     position: fixed;
-    border-radius: 2%;
+    border-radius: 10%;
 }
 
 .icon-bar a {
@@ -162,5 +162,3 @@ ul {
     background-color: #F9F9F9;
     border-radius: 50px;
 }
-
-/*test*/
