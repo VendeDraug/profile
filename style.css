@@ -67,7 +67,7 @@ a:hover {
   left: 0;
   right: 0;
   transition: opacity 0.3s ease;
-  border: 3px;
+  border: 3px solic blue;
 }
 
 #social-links-left > li {
